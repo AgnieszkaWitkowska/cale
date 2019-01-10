@@ -1,0 +1,11 @@
+#include <stdio.h
+int main() {
+    int a;
+    int b;
+    printf("Ten program służy do przeksztalcania wzrostu podanego w centymetrach na cale.\n");
+    printf("Podaj swoj wzrost w centymetrach: \n");
+    scanf("%d", &a);
+    b=a*2,54;
+    printf("Twój wzrost wyrazony w calach to: %d\n", b);
+    return 0;
+}
